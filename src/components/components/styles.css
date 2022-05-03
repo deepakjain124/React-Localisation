@@ -1,0 +1,123 @@
+.example-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#myGrid {
+  flex: 1 1 0px;
+  width: 100%;
+}
+
+#data-grid-demo {
+  min-height: 700px;
+}
+
+.ag-header-icon.ag-header-cell-menu-button {
+  opacity: 1 !important;
+}
+
+.header-black {
+  background-color: #16365d;
+  color: white;
+  font-size: 11px;
+}
+
+.ag-focused-managed {
+  padding: 0;
+}
+.header-green {
+  background-color: green;
+}
+
+.ag-header-cell {
+  border-right: 1px solid white !important;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.ag-header-group-cell {
+  border-right: 1px solid white !important;
+  justify-content: center;
+}
+
+.ag-cell-focus,
+.ag-cell-no-focus {
+  border: none !important;
+}
+
+.ag-cell {
+  font-size: 11px;
+  padding: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-border.ag-cell:focus {
+  border: none !important;
+  outline: none;
+}
+
+.alternate-row-color {
+  background-color: #e5edf8 !important;
+}
+
+.custom-edit-row {
+  pointer-events: none;
+}
+
+.ag-icon,
+.ag-menu {
+  color: white;
+  margin-top: 2.9px;
+}
+
+.ag-header-group-cell-label {
+  justify-content: center;
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+/* .ag-header-cell{
+  justify-content: center;
+  padding-left:5px !important;
+  padding-right:5px !important;
+} */
+
+.ag-header-group-cell {
+  background-color: #16365d;
+  color: white;
+  font-size: 11px;
+}
+
+.ag-input-field-label,
+.ag-label,
+.ag-radio-button-label .ag-input-wrapper,
+.ag-text-field-input-wrapper,
+.ag-input-field-input,
+.ag-text-field-input,
+.ag-picker-field-display {
+  color: black;
+}
+
+.ag-theme-alpine .ag-icon-filter::before {
+  content: "\f114";
+}
+
+.ag-theme-alpine .ag-ltr .ag-header-select-all {
+  margin-left: 42px;
+}
+
+.ag-root-wrapper-body {
+  border: 2px solid #16365d;
+}
+
+.ag-body-viewport {
+  overflow: scroll !important;
+}

@@ -1,0 +1,19 @@
+.MuiTabs-indicator {
+  display: none;
+}
+
+.MuiTabs-root {
+  min-height: 36px !important;
+}
+
+.css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root.Mui-disabled {
+  opacity: 1 !important;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 0 !important;
+}

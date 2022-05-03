@@ -1,0 +1,84 @@
+/* theme.css */
+
+.Success {
+  background-color: #5c9210;
+}
+
+.Blue {
+  background-color: #4f81bd;
+}
+
+.Green {
+  background-color: #3a6455;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.LightBlue {
+  background-color: #b8cce4;
+  border: 2px solid white;
+}
+
+.DisableBlue {
+  color: #b7d7a8;
+  background-color: #4f81bd;
+}
+
+.ButtonClass {
+    color: #444;
+    background: lightblue;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+  }
+
+  .TextArea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .listBox {
+    color: darkgray;
+    width: auto;
+    height: 200px;
+    resize: vertical;
+    border-color: lightgray;
+  }
+
+  .FormInput {
+    margin-bottom: 1rem;
+  }
+  
+  .FormInput label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  .FormInput input {
+    padding: 0.5rem 0.75rem;
+    width: 25%;
+    font-size: 1rem;
+  }
+
+  .DropDown {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+  }
+
+  .label {
+    color: #366092;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+  }
